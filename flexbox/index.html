@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- standard flexbox -->
+    text text text
+    <div class="flexbox">
+        <div class="flex_item1">A</div>
+        <div class="flex_item2">B B</div>
+        <div class="flex_item3">C C C</div>
+        <div class="flex_item4">D D D D</div>
+        <div class="flex_item5">E E E E E</div>
+    </div>
+    text text text
+    <!-- /standard flexbox -->
+
+    <div class="indent"></div>
+
+    <!-- inline flexbox -->
+    text text text
+    <div class="flexbox inline">
+        <div class="flex_item1">A</div>
+        <div class="flex_item2">B B</div>
+        <div class="flex_item3">C C C</div>
+        <div class="flex_item4">D D D D</div>
+        <div class="flex_item5">E E E E E</div>
+    </div>
+    text text text
+    <!-- /inline flexbox -->
+
+    <div class="indent"></div>
+
+    <!-- flex-basis -->
+    <div class="flexbox">
+        <div class="flex_item1">A</div>
+        <div class="flex_item2 item_basis_200">B B</div>
+        <div class="flex_item3">C C C</div>
+        <div class="flex_item4">D D D D</div>
+        <div class="flex_item5">E E E E E</div>
+    </div>
+    <!-- /flex-basis -->
+
+    <div class="indent"></div>
+
+    <!-- align-items & align-self -->
+    <div class="flexbox container_300 align-items">
+        <div class="flex_item1 align-self-start">A</div>
+        <div class="flex_item2">B B</div>
+        <div class="flex_item3 align-self-center">C C C</div>
+        <div class="flex_item4">D D D D</div>
+        <div class="flex_item5 align-self-end">E E E E E</div>
+    </div>
+    <!-- /align-items & align-self -->
+
+    <div class="indent"></div>
+
+    <!-- navbar with two groups of buttons on the opposite sides -->
+    <div class="flexbox navbar_500">
+        <div class="flex_item1">A</div>
+        <div class="flex_item2 left-group-end">B B</div>
+        <div class="flex_item3">C C C</div>
+        <div class="flex_item4">D D D D</div>
+        <div class="flex_item5">E E E E E</div>
+    </div>
+    <!-- /navbar with two groups of buttons on the opposite sides -->
+</body>
+</html>

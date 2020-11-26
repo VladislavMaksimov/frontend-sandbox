@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div, body, p {
+    box-sizing: border-box;
+}
+
+/* invisible block */
+.indent {
+    height: 20px;
+}
+
+/* container */
+.flexbox {
+    display: flex;
+    color: white;
+}
+
+.flex_item1 {
+    background-color: aquamarine;
+}
+
+.flex_item2 {
+    background-color: burlywood;
+}
+
+.flex_item3 {
+    background-color: darkgoldenrod;
+}
+
+.flex_item4 {
+    background-color: darkmagenta;
+}
+
+.flex_item5 {
+    background-color: darkolivegreen;
+}
+
+.inline {
+    display: inline-flex;
+}
+
+.item_basis_200 {
+    flex-basis: 200px;
+}
+
+.flex-example {
+    flex: 0 1 auto;
+    /* flex: flex-grow flex-shrink flex-basis */
+    /* 
+        initial (0 1 auto)
+        auto (1 1 auto)
+        none (0 0 auto)
+        2 (2 1 0)
+        30px (1 1 30px)
+        2 30px (2 1 30px)
+        2 3 30px (2 3 30px)
+    */
+}
+
+.container_300 {
+    height: 300px;
+}
+
+.align-items {
+    align-items: stretch;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+/* navbar with two groups of buttons on the opposite sides */
+
+.navbar_500 {
+    justify-content: space-evenly;
+    width: 500px;
+    border: 1px solid black;
+}
+
+.navbar_500 * {
+    width: 50px;
+    margin: 10px;
+}
+
+.left-group-end {
+    margin-right: auto;
+}
