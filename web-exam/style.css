@@ -1,0 +1,55 @@
+/* Способ с помощью CSS поместить div внутри section (см. index.html) так, чтобы он занимал ровно половину ширины section
+и был отцентрирован по горизонтали */
+
+/* Вариант 1 */
+/* 
+.wrapper {
+    background-color: red;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.content {
+    background-color: green;
+
+    height: 100%;
+    width: 50%;
+    margin: 0 auto 0 auto; 
+} 
+*/
+
+/* Вариант 2 */
+/* 
+.wrapper {
+    background-color: red;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.content {
+    background-color: green;
+
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+/* Вариант 3 */
+.wrapper {
+    background-color: red;
+    height: 200px;
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background-color: green;
+
+    height: 100%;
+    width: 50%;
+}
+
